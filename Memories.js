@@ -93,7 +93,7 @@ for (e of document.getElementsByClassName("randomText")) {
     var newText = "I've forgotten your face, will you show yourself?";
   }else if(boolean > .3 && boolean < .4){
     //text option 4
-    var newText = "My memories have been taken, just as they were given";
+    var newText = "My memories are fading";
   }else if(boolean > .4 && boolean < .5){
     //text option 5
     var newText = "Forgetfulness can be a blessing";
