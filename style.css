@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+canvas {
+  display: block;
+}
+
+h1{
+  text-align: center;
+}
+
+p {
+  color: 0;
+  display: flex;
+  padding: 0;
+  width: 0;
+  margin: 0;
+  height: auto;
+}
+
+.random{
+  color: 0;
+  display:flex;
+  padding: 0;
+  width: 0;
+  margin: 0;
+  height: auto;
+  vertical-align: auto;
+  background-image: none;
+}
+
+.randomText{
+  font-size: medium;
+  display: flex;
+}
