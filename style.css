@@ -10,6 +10,7 @@ canvas {
 
 h1{
   text-align: center;
+  size-adjust: 1.5;
 }
 
 p {
@@ -24,6 +25,7 @@ p {
 .random{
   color: 0;
   display:flex;
+  position:relative;
   padding: 0;
   width: 0;
   margin: 0;
