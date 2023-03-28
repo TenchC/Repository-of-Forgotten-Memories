@@ -360,34 +360,34 @@ console.log(currentMillis)
     var boolean = (Math.random()*1);
     if(boolean < .2){
       //text option 1
-      var newText = "Off you went back across the pond";
+      var newText = "You must've moved to the city recently";
     }else if(boolean > .1 && boolean < .2){
       //text option 2
-      var newText = "Are you candy flipping in the woods?";
+      var newText = "I think I saw you at the show";
     }else if(boolean > .2 && boolean < .3){
       //text option 3
-      var newText = "Remember the flag room?";
+      var newText = "Are you still practicing photography these days?";
     }else if(boolean > .3 && boolean < .4){
       //text option 4
-      var newText = "And the nightmare in the airport";
+      var newText = "Remember road tripping to Maryland?";
     }else if(boolean > .4 && boolean < .5){
       //text option 5
-      var newText = "When I fainted at Lea's show";
+      var newText = "And smoking in your barn";
     } else if(boolean > .5 && boolean < .6){
       //text option 6
-      var newText = "And you cried in my arms";
+      var newText = "And walking on that cold December day";
     }else if(boolean > .6 && boolean < .7){
       //text option 7
-      var newText = "With coffee and a bagel every morning";
+      var newText = "When I came back";
     }else if(boolean > .7 && boolean < .8){
       //text option 8
-      var newText = "And reading by candle light at night";
+      var newText = "I'm not sure I remember you";
     }else if(boolean > .8 && boolean < .9){
       //text option 9
-      var newText = "Sometimes I still see Derin";
+      var newText = "I can't believe you";
     } else if (boolean >.9 && boolean < 1){
       //text option 10
-      var newText = "We were both just kids back then"
+      var newText = "Don't fuck your lungs too bad"
     }
   e.innerHTML = newText;
   }
