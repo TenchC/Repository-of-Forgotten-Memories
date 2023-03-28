@@ -5,7 +5,7 @@ html, body {
 }
 
 canvas {
-  display: block;
+  display: flex;
 }
 
 h1{
@@ -16,9 +16,9 @@ h1{
 p {
   color: 0;
   display: flex;
-  padding: 0;
+  padding: 10px;
   width: 0;
-  margin: 0;
+  margin: 10px;
   height: auto;
 }
 
@@ -34,7 +34,20 @@ p {
   background-image: none;
 }
 
+
 .randomText{
   font-size: medium;
   display: flex;
+}
+
+img{
+  display: flex;
+  overflow-wrap: break-word;
+  flex-wrap: wrap;
+}
+
+div{
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
